@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -46,7 +53,7 @@ ul, li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #0093ff;
+  background: #0f3f7a;
   padding: 18px 0;
 }
 
@@ -60,7 +67,7 @@ ul, li {
   font-size: 18px;
   color: #fff;
   font-family: 'Roboto Slab', serif;
-  font-weight: 800;
+  font-weight: 500;
   -webkit-transition-duration: 500ms;
        -o-transition-duration: 500ms;
           transition-duration: 500ms;
@@ -72,7 +79,6 @@ ul, li {
 .menu li a:hover {
   color: #000;
   font-family: 'Roboto Slab', serif;
-  font-weight: 800;
 }
 
 .ava {
@@ -162,7 +168,7 @@ h1 {
   width: 20px;  
   height: 20px; 
   border-radius: 50%;
-  background: #0093ff;
+  background: #0f3f7a;
   position: relative;
   margin: 0 auto;
 }
@@ -172,7 +178,7 @@ h1 {
   width: 2px;
   height: 200px;
   display: block;
-  background-color: #0093ff;
+  background-color: #0f3f7a;
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -187,7 +193,7 @@ h1 {
 .about__title {
   font-size: 20px; 
   font-weight: 600; 
-  color: #0093ff;
+  color: #0f3f7a;
   margin: 0;
   padding: 0;
 }
@@ -337,7 +343,7 @@ h1 {
   padding-bottom: 30px;
 }
 .portfolio h1 {
-	margin: 30px 0;
+  margin: 30px 0;
 }
 .portfolio .controls {
   text-align: center;
@@ -353,7 +359,7 @@ h1 {
 .portfolio .controls button {
   color: #0f3f7a;
   font-family: 'Roboto Slab', serif;
-  font-weight: 700;	
+  font-weight: 700; 
   background-color: transparent;
   border: none;
   text-transform: uppercase;
@@ -491,7 +497,7 @@ h1 {
   text-align: center;  
   font-family: 'Roboto Slab', serif;    
   font-size: 20px;  
-  font-weight: 900;
+  font-weight: 500;
   z-index: 99;
   margin-left: 5px;
   margin-right: 5px;
@@ -521,7 +527,7 @@ h1 {
   text-align: center; 
   font-size: 14px; 
   font-style: italic; 
-  font-weight: 600;  
+  font-weight: 500;  
 }
 
 .portfolio .container-filter div .fil p:nth-child(1) {
@@ -539,7 +545,7 @@ h1 {
   text-decoration: none;
 }
 .portfolio .container-filter div .fil p a:hover {
-  color: #0093ff;
+  color: yellow;
   text-decoration: underline;
 }
 .portfolio .container-filter div:hover .fil {
@@ -602,7 +608,7 @@ h1 {
 .contact-form input, .contact-form textarea {
   font-size: 14px;
   padding: 25px 80px 25px 37px;
-  border-radius: 35px;
+  border-radius: 20px;
   width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -628,7 +634,7 @@ h1 {
   position: relative;
   padding: 22px 40px 22px 65px;
   max-width: 232px;
-  background: #0093ff;
+  background: #0f3f7a;
   border-radius: 20px;
   letter-spacing: 1.3px;
   font-weight: 800;
@@ -641,7 +647,7 @@ h1 {
 }
 
 .contact-form .btn-primary:hover {
-  background: #0f3f7a;
+  background: #0093ff;
   color: #fff;
 }
 .contact-form .btn-primary:focus {
@@ -719,11 +725,11 @@ h1 {
 }
 
 .contact__icon i {
-  color: #0093ff;
+  color: #0f3f7a;
 }
 
 .contact__icon a:hover i {
-  color: #0f3f7a;
+  color: #0093ff;
 }
 
 .contact__desc {
@@ -749,10 +755,19 @@ h1 {
   position: fixed;
   right: 10px;
   bottom: 10px;
-  background-color: #0093ff;
+  background-color: #0f3f7a;
   border-radius: 50%;
   cursor: pointer;
   z-index: 10;
+  -webkit-transition-duration: 500ms;
+       -o-transition-duration: 500ms;
+          transition-duration: 500ms;
+  -webkit-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+}
+.arrow-up:hover {
+  background-color: #0093ff;
 }
 .arrow-up a {
   display: block;
@@ -783,7 +798,7 @@ h1 {
   text-decoration: none;
   color: #fff;
   font-family: 'Roboto Slab', serif;
-  font-weight: 800;
+  font-weight: 500;
   padding-bottom: 3px;
   border-bottom: 2px solid transparent;
   -webkit-transition-duration: 500ms;
@@ -798,7 +813,6 @@ h1 {
 {
   color: #000;
   font-family: 'Roboto Slab', serif;
-  font-weight: 800;
 }
 #menuToggle
 {
@@ -810,7 +824,7 @@ h1 {
   -moz-user-select: none;
    -ms-user-select: none;
        user-select: none;
-      background: #0093ff;
+      background: #0f3f7a;
     width: 100%;
     padding: 10px 0;
 }
@@ -900,7 +914,7 @@ h1 {
   padding: 50px;
   padding-top: 100px;
   text-align:center;
-  background: #0093ff;
+  background: #0f3f7a;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   -webkit-transform-origin: 0% 0%;
@@ -1011,11 +1025,15 @@ h1 {
             flex-direction: column; 
   }
   .contact__icon {
-  	margin: 20px 0;
+    margin: 20px 0;
   }
 } 
 
-
+@media (max-width: 540px) {
+  #menuToggle span, #menuToggle input {
+    left: 88vw;
+  } 
+}
 
 @media (max-width: 480px) {
   .services h1 {
@@ -1040,7 +1058,7 @@ h1 {
   }
 
   #menuToggle span, #menuToggle input {
-    left: 90vw;
+    left: 89vw;
   }
 }
 
